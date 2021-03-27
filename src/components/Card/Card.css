@@ -1,0 +1,15 @@
+.card-button{
+    float: right;
+}
+
+.cards-body{
+    border-top: 28px #005AC0 solid;
+}
+
+.card-title {
+    font-size: calc( 12px + 2vmin);
+}
+
+.card{
+    width: 26rem;
+}
