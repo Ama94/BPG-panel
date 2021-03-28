@@ -3,13 +3,17 @@
 }
 
 .cards-body{
-    border-top: 28px #005AC0 solid;
+    border-top: 28px solid #005ac0;
 }
 
-.card-title {
-    font-size: calc( 12px + 2vmin);
+.card-title{
+    font-size: calc(12px + 2vmin);
 }
 
-.card{
+.cards{
     width: 26rem;
+}
+
+.card-img-top{
+    max-height: 184px !important;
 }

@@ -2,13 +2,18 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header/Header.js';
 import Footer from "./components/Footer/Footer";
-import Home from "./containter/home/Home";
+import Home from "./container/home/home";
+import Contact from "./container/contact/Contact";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
     return (
         <div>
             <Header></Header>
-            <Home></Home>
+            <Router>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/contact" component={Contact} />
+            </Router>
             <Footer></Footer>
         </div>
     )

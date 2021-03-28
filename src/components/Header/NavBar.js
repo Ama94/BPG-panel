@@ -7,16 +7,16 @@ import Header from "./Header";
 class NavBar extends React.Component {
     render() {
         return (
-            <Navbar expand="lg ml-4 App-navbar">
+            <Navbar expand="lg App-navbar">
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="App-nav">
-                        <NavLink href={'#'}>Start</NavLink>
-                        <NavLink href={'#'}>Aktualności</NavLink>
-                        <NavLink href={'#'}>O firmie</NavLink>
-                        <NavLink href={'#'}>Oferta</NavLink>
-                        <NavLink href={'#'}>Rodo</NavLink>
-                        <NavLink className={"last-link"} href={'#'}>Kontakt</NavLink>
+                        <NavLink href={'/'}>Start</NavLink>
+                        <NavLink href={'/'}>Aktualności</NavLink>
+                        <NavLink href={'/about'}>O firmie</NavLink>
+                        <NavLink href={'/offer'}>Oferta</NavLink>
+                        <NavLink href={'/rodo'}>Rodo</NavLink>
+                        <NavLink className={"last-link"} href={'/contact'}>Kontakt</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
