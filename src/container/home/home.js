@@ -7,14 +7,14 @@ import ContactImage from "./EWEfinal.png";
 import AboutImage from "./uscisk.png";
 import OfferImage from "./imageOferta.png";
 import RodoImage from "./imageProjekty.png"
-import Slider from "../../components/Slider/Slider";
+import Slajd from "../../components/Slider/Slajd";
 
 class Home extends React.Component {
     render() {
         return (
             <Container className={'mt-2'}>
                 <Row className="justify-content-md-center">
-                    <Slider></Slider>
+                    <Slajd></Slajd>
                 </Row>
                 <Row className="justify-content-md-center">
                     <News></News>
