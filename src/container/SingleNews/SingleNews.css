@@ -1,0 +1,11 @@
+.news-img{
+    max-height: 200px !important;
+}
+
+.SN-date{
+    color: #636568;
+}
+
+.news-text{
+    font-size: calc(12px + 1vmin);
+}

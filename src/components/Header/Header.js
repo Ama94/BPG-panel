@@ -4,7 +4,7 @@ import {Container, Row} from "react-bootstrap";
 import React from "react";
 import NavBar from "./NavBar";
 import Logo from "./Logo";
-import News from "../News/News";
+import CardNews from "../CardNews/CardNews";
 
 class Header extends React.Component {
     render() {

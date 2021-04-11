@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import React from "react";
 import BPGCard from "../../components/Card/BPG-Card";
 import {Container, Row, Col} from "react-bootstrap";
-import News from "../../components/News/News";
+import CardNews from "../../components/CardNews/CardNews";
 import ContactImage from "./EWEfinal.png";
 import AboutImage from "./uscisk.png";
 import OfferImage from "./imageOferta.png";
@@ -17,7 +17,7 @@ class Home extends React.Component {
                     <Slajd></Slajd>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <News></News>
+                    <CardNews></CardNews>
                 </Row>
                 <Row className="justify-content-md-center">
                     <BPGCard title={"O firmie"} img={AboutImage} url={""}></BPGCard>

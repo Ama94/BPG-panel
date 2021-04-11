@@ -12,7 +12,7 @@ class NavBar extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="App-nav">
                         <NavLink href={'/'}>Start</NavLink>
-                        <NavLink href={'/'}>Aktualności</NavLink>
+                        <NavLink href={'/news'}>Aktualności</NavLink>
                         <NavLink href={'/about'}>O firmie</NavLink>
                         <NavLink href={'/offer'}>Oferta</NavLink>
                         <NavLink href={'/rodo'}>Rodo</NavLink>

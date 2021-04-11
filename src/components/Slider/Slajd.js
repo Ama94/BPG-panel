@@ -8,14 +8,6 @@ import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
 class Slajd extends React.Component {
     render() {
         return (
-            // <div>
-            //     <Col className={"col-md-9"}>
-            //         <Slider></Slider>
-            //     </Col>
-            //     <Col>
-            //         <Info></Info>
-            //     </Col>
-            // </div>
             <Card className={"mb-4 mt-4"}>
                 <Row>
                     <Col className={"col-md-8"}>
