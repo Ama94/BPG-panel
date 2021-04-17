@@ -12,7 +12,7 @@ class Header extends React.Component {
             <header className="App-header">
                 <div>
                     <Container>
-                        <Row className="justify-content-md-center">
+                        <Row noGutters className="justify-content-md-center">
                             <Logo></Logo>
                         </Row>
                     </Container>

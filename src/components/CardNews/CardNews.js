@@ -8,7 +8,7 @@ class CardNews extends React.Component{
     render() {
         return (
             <Card className={"news"}>
-            <Row>
+            <Row noGutters>
                 <Col className={"col-md-4"}>
                     <div className={"img-container"}>
                     <Image className={"img-responsive"} src={projekt} />

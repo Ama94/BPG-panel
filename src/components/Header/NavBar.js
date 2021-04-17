@@ -13,7 +13,7 @@ class NavBar extends React.Component {
                     <Nav className="App-nav">
                         <NavLink href={'/'}>Start</NavLink>
                         <NavLink href={'/news'}>Aktualności</NavLink>
-                        <NavLink href={'/about'}>O firmie</NavLink>
+                        <NavLink href={'/about'}>O&nbsp;firmie</NavLink>
                         <NavLink href={'/offer'}>Oferta</NavLink>
                         <NavLink href={'/rodo'}>Rodo</NavLink>
                         <NavLink className={"last-link"} href={'/contact'}>Kontakt</NavLink>

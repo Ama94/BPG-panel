@@ -11,21 +11,21 @@ class Slider extends React.Component{
             <Carousel>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block"
                         src={slide1}
                         alt="First slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block"
                         src={slide2}
                         alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block"
                         src={slide3}
                         alt="Third slide"
                     />

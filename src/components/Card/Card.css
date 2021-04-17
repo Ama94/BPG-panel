@@ -11,9 +11,9 @@
 }
 
 .cards{
-    width: 26rem;
+    width: 32rem;
 }
 
 .card-img-top{
-    max-height: 184px !important;
+    max-height: 225px !important;
 }

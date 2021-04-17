@@ -13,17 +13,17 @@ class Home extends React.Component {
     render() {
         return (
             <Container className={'mt-2'}>
-                <Row className="justify-content-md-center">
+                <Row noGutters  className="justify-content-md-center ml-4 mr-4">
                     <Slajd></Slajd>
                 </Row>
-                <Row className="justify-content-md-center">
+                <Row noGutters  className="justify-content-md-center mb-4 ml-4 mr-4">
                     <CardNews></CardNews>
                 </Row>
-                <Row className="justify-content-md-center">
+                <Row  className="justify-content-md-center">
                     <BPGCard title={"O firmie"} img={AboutImage} url={""}></BPGCard>
                     <BPGCard title={"Oferta"} img={OfferImage} url={"offer"}></BPGCard>
                 </Row>
-                <Row className="justify-content-md-center">
+                <Row  className="justify-content-md-center">
                     <BPGCard title={"Rodo"} img={RodoImage} url={"rodo"}></BPGCard>
                     <BPGCard title={"Kontakt"} img={ContactImage} url={"contact"}></BPGCard>
                 </Row>
