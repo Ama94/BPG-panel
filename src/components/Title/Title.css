@@ -1,3 +1,15 @@
 .title{
     color: #08307D;
+    display: flex;
+    flex-direction: row;
 }
+
+/*.title:after {*/
+/*    content: "";*/
+/*    flex: 1 1;*/
+/*    border-bottom: 2px solid #000;*/
+/*    border-color: #08307D;*/
+/*    margin: auto;*/
+/*    margin-left: 8px;*/
+/*    margin-right: 8px;*/
+/*}*/

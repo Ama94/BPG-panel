@@ -7,7 +7,7 @@ import React from "react";
 class CardNews extends React.Component{
     render() {
         return (
-            <Card className={"news"}>
+            <Card className={"news mb-2"}>
             <Row noGutters>
                 <Col className={"col-md-4"}>
                     <div className={"img-container"}>

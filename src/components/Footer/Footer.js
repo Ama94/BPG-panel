@@ -31,7 +31,7 @@ class Footer extends React.Component {
                         </Col>
                     </Row>
                 </Container>
-                <Row className={"footer-copyrights"}>
+                <Row noGutters className={"footer-copyrights"}>
                     <Container>
                         <Col className={"mt-2"}>
                             <p>
