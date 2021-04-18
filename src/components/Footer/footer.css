@@ -1,11 +1,11 @@
 .App-Footer {
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 1vmin);
     color: white;
     background-color: #16418D;
     /*background-image: url("MotywFooter.png");*/
 }
 
-a{
+.footer-a{
     color: white;
 }
 

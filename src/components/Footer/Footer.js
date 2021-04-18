@@ -17,9 +17,9 @@ class Footer extends React.Component {
                         </Col>
                         <Col className={"mt-2"}>
                             <p className="color-white">Telefon: +48 600 377 801</p>
-                            <p className="color-white">E-mail:</p>
-                            <p><a href="mailto: biuro@bpg-s.pl" className="color-white">biuro@bpg-s.pl</a></p>
-                            <a href="mailto: sekretariat@bpg-s.pl" className="color-white">sekretariat@bpg-s.pl</a>
+                            <p className="color-white ">E-mail:</p>
+                            <p><a href="mailto: biuro@bpg-s.pl" className="color-white footer-a">biuro@bpg-s.pl</a></p>
+                            <a href="mailto: sekretariat@bpg-s.pl" className="color-white footer-a">sekretariat@bpg-s.pl</a>
                         </Col>
                         <Col className={"col-lg-2 mt-2"}>
                             <a className="navbarmenu" aria-current="page" href="#">Start></a><br/>
