@@ -15,6 +15,36 @@ class News extends React.Component {
                     <CardNews></CardNews>
                     <CardNews></CardNews>
                     <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
+                    <CardNews></CardNews>
                 </Row>
                 <Row className="justify-content-md-center">
                     <Pagination></Pagination>

@@ -7,8 +7,9 @@ class About extends React.Component {
     render() {
         return (
             <Container id="podstrona">
-                <h1 className="title">O firmie</h1>
-                <p className='top'><img src={ofirmie} alt=''/>Biuro Projektowe Gór-Spec sp. z o.o.
+                <h1 className="title mt-4">O firmie</h1>
+                <p className='top'><img src={ofirmie} alt='' align={"right"}/>
+                    Biuro Projektowe Gór-Spec sp. z o.o.
                     kontynuuje pracę firmy pod nazwą Biuro Projektowe Gór-Spec Marek Orzeł i jest firmą ukierunkowaną na
                     wykonywanie dokumentacji projektowej oraz prowadzenie inwestycji budowlanych i dostawczych. Jesteśmy
                     zespołem z wieloletnim doświadczeniem, realizującym zadania głównie dla branży górniczej. Nasze
