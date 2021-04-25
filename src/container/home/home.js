@@ -15,20 +15,19 @@ class Home extends React.Component {
     render() {
         return (
             <Container className={'mt-2'}>
-                <Row noGutters className="justify-content-md-center ml-4 mr-4">
+                <Row noGutters className={"justify-content-md-center ml-4 mr-4"}>
                     <Slajd></Slajd>
                 </Row>
                     <SubTitle title={"Aktualnosci"}></SubTitle>
-                <Row noGutters className="justify-content-md-center mb-5 ml-4 mr-4">
-
+                <Row noGutters className={"justify-content-md-center mb-5 ml-4 mr-4"}>
                     <CardNews></CardNews>
                 </Row>
                 <Line></Line>
-                <Row className="justify-content-md-center">
+                <Row className={"justify-content-md-center"}>
                     <BPGCard title={"O firmie"} img={AboutImage} url={""}></BPGCard>
                     <BPGCard title={"Oferta"} img={OfferImage} url={"offer"}></BPGCard>
                 </Row>
-                <Row className="justify-content-md-center mb-4">
+                <Row className={"justify-content-md-center mb-4"}>
                     <BPGCard title={"Rodo"} img={RodoImage} url={"rodo"}></BPGCard>
                     <BPGCard title={"Kontakt"} img={ContactImage} url={"contact"}></BPGCard>
                 </Row>
