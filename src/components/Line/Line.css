@@ -1,0 +1,9 @@
+.line {
+    display: flex;
+    flex-direction: row;
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    border-color: #08307D;
+    margin: auto 8px;
+}

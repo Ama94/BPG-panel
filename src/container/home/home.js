@@ -9,6 +9,7 @@ import OfferImage from "./imageOferta.png";
 import RodoImage from "./imageProjekty.png"
 import Slajd from "../../components/Slider/Slajd";
 import SubTitle from "../../components/SubTitle/Subtitle";
+import Line from "../../components/Line/Line";
 
 class Home extends React.Component {
     render() {
@@ -17,13 +18,12 @@ class Home extends React.Component {
                 <Row noGutters className="justify-content-md-center ml-4 mr-4">
                     <Slajd></Slajd>
                 </Row>
-                <Row noGutters className="mb-4 ml-4 mr-4">
                     <SubTitle title={"Aktualnosci"}></SubTitle>
-                </Row>
-                <Row noGutters className="justify-content-md-center mb-4 ml-4 mr-4">
+                <Row noGutters className="justify-content-md-center mb-5 ml-4 mr-4">
 
                     <CardNews></CardNews>
                 </Row>
+                <Line></Line>
                 <Row className="justify-content-md-center">
                     <BPGCard title={"O firmie"} img={AboutImage} url={""}></BPGCard>
                     <BPGCard title={"Oferta"} img={OfferImage} url={"offer"}></BPGCard>

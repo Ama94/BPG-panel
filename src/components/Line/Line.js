@@ -1,4 +1,4 @@
-import './SubTitle.css';
+import './Line.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React from "react";
 
@@ -6,7 +6,7 @@ import React from "react";
 class SubTitle extends React.Component {
     render() {
         return (
-            <h2 className="subtitle mt-2 mb-4">{this.props.title}</h2>
+            <div className="line mt-4 mb-4"></div>
         )
     }
 }
