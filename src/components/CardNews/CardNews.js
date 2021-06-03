@@ -18,14 +18,14 @@ class CardNews extends React.Component{
                     <Card.Body>
                         <Row className={"justify-content-md-center"}>
                             <Col>
-                            <Card.Title className={"mb-5"}><h1>Aktualności</h1></Card.Title>
+                            <Card.Title className={"mb-5"}><h1>{this.props.title}</h1></Card.Title>
                             </Col>
                             <Col>
-                            <Card.Subtitle className={"mt-2 news-date"}><h3>12.02.2021</h3></Card.Subtitle>
+                            <Card.Subtitle className={"mt-2 news-date"}><h3>{this.props.date}</h3></Card.Subtitle>
                             </Col>
                         </Row>
                         <Card.Text>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque culpa dolor, dolorum eaque eligendi eos est eveniet ex laborum laudantium magnam nemo, non nostrum obcaecati odio repellendus totam veniam!
+                            {this.props.description}
                         </Card.Text>
                         <Button className={"card-button"} variant="primary" href={"news/test"}>Pokaż więcej</Button>
                     </Card.Body>

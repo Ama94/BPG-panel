@@ -20,7 +20,7 @@ class Home extends React.Component {
                 </Row>
                     <SubTitle title={"Aktualnosci"}></SubTitle>
                 <Row noGutters className={"justify-content-md-center mb-5 ml-4 mr-4"}>
-                    <CardNews></CardNews>
+                    <CardNews title={"test"} description={"test"}></CardNews>
                 </Row>
                 <Line></Line>
                 <Row className={"justify-content-md-center"}>
