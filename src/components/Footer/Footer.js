@@ -22,12 +22,12 @@ class Footer extends React.Component {
                             <a href="mailto: sekretariat@bpg-s.pl" className="color-white footer-a">sekretariat@bpg-s.pl</a>
                         </Col>
                         <Col className={"col-lg-2 mt-2"}>
-                            <a className="navbarmenu color-white footer-a" aria-current="page" href="#">Start></a><br/>
-                            <a className="navbarmenu color-white footer-a" href="#">Aktualnosci></a><br/>
-                            <a className="navbarmenu color-white footer-a" href="#">O firmie></a><br/>
-                            <a className="navbarmenu color-white footer-a" href="#">Oferta></a><br/>
-                            <a className="navbarmenu color-white footer-a" href="#">Rodo></a><br/>
-                            <a className="navbarmenu color-white footer-a" href="#">Kontakt></a><br/>
+                            <a className="navbarmenu color-white footer-a" aria-current="page" href="/">Start></a><br/>
+                            <a className="navbarmenu color-white footer-a" href="News">Aktualnosci></a><br/>
+                            <a className="navbarmenu color-white footer-a" href="about">O firmie></a><br/>
+                            <a className="navbarmenu color-white footer-a" href="offer">Oferta></a><br/>
+                            <a className="navbarmenu color-white footer-a" href="rodo">Rodo></a><br/>
+                            <a className="navbarmenu color-white footer-a" href="contact">Kontakt></a><br/>
                         </Col>
                     </Row>
                 </Container>

@@ -1,11 +1,10 @@
 import './SingleNews.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React from "react";
-import {Container, Row, Col, Image} from "react-bootstrap";
-import img1 from './slajd1.png';
+import {Container, Row, Col,} from "react-bootstrap";
 import Title from "../../components/Title/Title";
-import SubTitle from "../../components/SubTitle/Subtitle";
 import CustomBreadcrumb from "../../components/BreadCrumb/CustomBreadcrumb";
+import ImageSlider from "./ImageSlider";
 
 
 class SingleNews extends React.Component {
@@ -16,7 +15,9 @@ class SingleNews extends React.Component {
                 <CustomBreadcrumb></CustomBreadcrumb>
                 <Row>
                     <Col className={"md-6"}>
-                        <Image className={"news-img"} src={img1}/>
+                        <div className={"news-img"}>
+                            <ImageSlider></ImageSlider>
+                        </div>
                     </Col>
                     <Col className={"md-8"}>
                         <Title title={"Mincraft serwer"}></Title>

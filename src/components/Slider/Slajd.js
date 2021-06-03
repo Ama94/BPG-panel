@@ -1,3 +1,4 @@
+import slide1 from './slajd1.png';
 import './Slajd.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React from "react";
@@ -13,22 +14,20 @@ class Slajd extends React.Component {
                     <Col md={6} ml={2} mr={2}>
                         <Row noGutters className={"mb-2"}>
                             <div className={"slider-images"}>
-                                <Slider></Slider>
+                                 <img className="d-block" src={this.props.image}  alt="First slide"/>
                             </div>
                         </Row>
                         <Row noGutters>
-                            <Card.Subtitle><Info></Info></Card.Subtitle>
+                            <Card.Subtitle></Card.Subtitle>
                         </Row>
                     </Col>
                     <Col md={6} ml={8} mr={8}>
                         <Card.Body>
                             <Row className={"justify-content-md-center"}>
-                                <Card.Title className={"mb-2"}><h1>Skaning 3D</h1></Card.Title>
+                                <Card.Title className={"mb-2"}><h1>{this.props.title}</h1></Card.Title>
                             </Row>
                             <Card.Text className={"mt-2 card-trunc"}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at beatae
-                                blanditiis debitis delectus earum error, esse facere harum hic iure necessitatibus nisi
-                                optio, pariatur quisquam quod sunt tempore tenetur.
+                                {this.props.description}
                             </Card.Text>
                         </Card.Body>
                     </Col>
