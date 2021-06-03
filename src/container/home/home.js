@@ -7,16 +7,17 @@ import ContactImage from "./EWEfinal.png";
 import AboutImage from "./uscisk.png";
 import OfferImage from "./imageOferta.png";
 import RodoImage from "./imageProjekty.png"
-import Slajd from "../../components/Slider/Slajd";
+// import Slajd from "../../components/Slider/Slajd";
 import SubTitle from "../../components/SubTitle/Subtitle";
 import Line from "../../components/Line/Line";
+import Slider from "../../components/Slider/Slider";
 
 class Home extends React.Component {
     render() {
         return (
             <Container className={'mt-2'}>
                 <Row noGutters className={"justify-content-md-center ml-4 mr-4"}>
-                    <Slajd></Slajd>
+                    <Slider></Slider>
                 </Row>
                     <SubTitle title={"Aktualnosci"}></SubTitle>
                 <Row noGutters className={"justify-content-md-center mb-5 ml-4 mr-4"}>
@@ -24,7 +25,7 @@ class Home extends React.Component {
                 </Row>
                 <Line></Line>
                 <Row className={"justify-content-md-center"}>
-                    <BPGCard title={"O firmie"} img={AboutImage} url={""}></BPGCard>
+                    <BPGCard title={"O firmie"} img={AboutImage} url={"about"}></BPGCard>
                     <BPGCard title={"Oferta"} img={OfferImage} url={"offer"}></BPGCard>
                 </Row>
                 <Row className={"justify-content-md-center mb-4"}>
