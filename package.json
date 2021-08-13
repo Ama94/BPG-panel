@@ -2,18 +2,25 @@
   "name": "bpg2.0",
   "version": "0.1.0",
   "private": true,
+  "homepage": "",
   "dependencies": {
+    "@ant-design/icons": "^4.6.2",
     "@react-google-maps/api": "^2.1.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.9",
     "bootstrap": "^4.6.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
     "react-google-maps": "^9.4.5",
+    "react-image-gallery": "^1.1.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-router-native": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "suneditor": "^2.41.3",
+    "suneditor-react": "^3.3.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -41,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@types/google-maps": "^3.2.2"
+    "@types/google-maps": "^3.2.2",
+    "webpack-config": "^7.5.0"
   }
 }
