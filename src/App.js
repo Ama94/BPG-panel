@@ -26,8 +26,8 @@ function App() {
             <Route path="/rodo" component={RODO} />
             <Route path="/about" component={About} />
             <Route path="/offer" component={Offer} />
-            <Route path="/test" component={PanelLogin}/>
-            <Route path="/test2" component={Panel}/>
+            <Route path="/login" component={PanelLogin}/>
+            <Route path="/panel" component={Panel}/>
             </Router>
             {/*<Footer></Footer>*/}
         </div>

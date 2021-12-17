@@ -57,28 +57,35 @@ class NewsForm extends React.Component {
     render() {
         const {collapsed} = this.state;
         return (
-            <form onSubmit={this.handleSubmit}>
-                <h4>Tytuł</h4>
-                <Form.Item>
-                    <Input type="text" value={this.state.value} name="name" onChange={this.handleChange}></Input>
-                </Form.Item>
-                <Form.Item>
-                    <Upload.Dragger name="files" action="/upload.do">
-                        <p className="ant-upload-drag-icon">
-                            <InboxOutlined/>
-                        </p>
-                        <p className="ant-upload-text">Click or drag file to this area to upload</p>
-                    </Upload.Dragger>
-                </Form.Item>
-                <h4>Opis</h4>
-                <Form.Item>
-                    <SunEditor value={this.state.value} name="name" onChange={this.handleChange1} height="400px"/>
-                </Form.Item>
-                <Form.Item>
-                    {/*<Button type="primary" htmlType="submit"/>*/}
-                    <input type="submit" value="Submit"/>
-                </Form.Item>
-            </form>
+            <div>
+                <Breadcrumb style={{margin: '16px 0'}}>
+                    <Breadcrumb.Item href="/test2/">Home</Breadcrumb.Item>
+                    <Breadcrumb.Item href="/test2/news/">Aktualności</Breadcrumb.Item>
+                    <Breadcrumb.Item>Dodaj</Breadcrumb.Item>
+                </Breadcrumb>
+                <form onSubmit={this.handleSubmit}>
+                    <h4>Tytuł</h4>
+                    <Form.Item>
+                        <Input type="text" value={this.state.value} name="name" onChange={this.handleChange}></Input>
+                    </Form.Item>
+                    <Form.Item>
+                        <Upload.Dragger name="files" action="/upload.do">
+                            <p className="ant-upload-drag-icon">
+                                <InboxOutlined/>
+                            </p>
+                            <p className="ant-upload-text">Click or drag file to this area to upload</p>
+                        </Upload.Dragger>
+                    </Form.Item>
+                    <h4>Opis</h4>
+                    <Form.Item>
+                        <SunEditor value={this.state.value} name="name" onChange={this.handleChange1} height="400px"/>
+                    </Form.Item>
+                    <Form.Item>
+                        {/*<Button type="primary" htmlType="submit"/>*/}
+                        <input type="submit" value="Submit"/>
+                    </Form.Item>
+                </form>
+            </div>
         );
     }
 }

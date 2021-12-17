@@ -1,11 +1,10 @@
 import {Breadcrumb, Button} from "antd";
-import {Route} from "react-router-dom";
-import NewsList from "../../Lists/NewsList";
-import NewsForm from "../../Forms/NewsForm";
 import React from "react";
+import About from "../../About Company/About";
+import Offer from "../../offer/Offer";
 
 
-class PanelNews extends React.Component {
+class PanelOffer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {name: ''};
@@ -21,17 +20,17 @@ class PanelNews extends React.Component {
             <div>
                 <Breadcrumb style={{margin: '16px 0'}}>
                     <Breadcrumb.Item>Home</Breadcrumb.Item>
-                    <Breadcrumb.Item>News</Breadcrumb.Item>
+                    <Breadcrumb.Item>O firmie</Breadcrumb.Item>
                 </Breadcrumb>
                 <div className="site-layout-background" style={{marginBottom: 16}}>
-                         <Button key="list-loadmore-new" href="/panel/news/add">Dodaj nową</Button>
+                    <Button key="list-loadmore-new" href="/panel/about/edit">Edytuj</Button>
                 </div>
                 <div className="site-layout-background" style={{padding: 24, minHeight: 360}}>
-                    <NewsList/>
+                    <Offer/>
                 </div>
             </div>
         );
     }
 }
 
-export default PanelNews;
+export default PanelOffer;

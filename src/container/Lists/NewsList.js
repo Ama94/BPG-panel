@@ -76,7 +76,7 @@ class NewsList extends React.Component {
                         <CardNews title={item.title} description={item.description} date={item.date} image={item.image} id={item.id}>
 
                         </CardNews>
-                        <Button  key="list-loadmore-edit" href="/test2/news/edit">
+                        <Button  key="list-loadmore-edit" href="/panel/news/edit">
                              edytuj
                         </Button>
                         <Button key="list-loadmore-remove" href="">usuń</Button>
